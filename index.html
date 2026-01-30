@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Murad Abdullah Bishr — UI/UX-first Computer Science student. Django, Flutter, Python, Data Science." />
+  <title>Murad Abdullah Bishr — Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+
+  <meta name="color-scheme" content="light dark" />
+</head>
+
+<body>
+  <div id="top"></div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" >
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand-logo" aria-hidden="true">
+  <svg viewBox="0 0 48 48" width="44" height="44" class="logo-svg">
+    <defs>
+      <linearGradient id="mbBorder" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="var(--accent)"/>
+        <stop offset="1" stop-color="var(--accent-2)"/>
+      </linearGradient>
+
+      <radialGradient id="mbGlow" cx="30%" cy="25%" r="80%">
+        <stop offset="0" stop-color="var(--accent)" stop-opacity="0.35"/>
+        <stop offset="1" stop-color="transparent" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+
+    <rect x="3" y="3" width="42" height="42" rx="14" fill="none" stroke="url(#mbBorder)" stroke-width="1.6"/>
+    <rect x="4.2" y="4.2" width="39.6" height="39.6" rx="13" fill="var(--surface)" stroke="rgba(255,255,255,0.10)"/>
+    <rect x="4.2" y="4.2" width="39.6" height="39.6" rx="13" fill="url(#mbGlow)"/>
+
+    <!-- Cursive M -->
+    <text x="24" y="26.2" class="logo-letter" text-anchor="middle" dominant-baseline="middle">M</text>
+
+    <circle cx="35.8" cy="16.3" r="3.1" fill="var(--accent)" opacity="0.95"/>
+    <circle cx="34.8" cy="15.3" r="1.2" fill="white" opacity="0.55"/>
+  </svg>
+</span>
+
+
+
+        <span class="brand-text">Murad Bishr</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="sr-only">Open menu</span>
+          <span class="nav-toggle-lines" aria-hidden="true"></span>
+        </button>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a class="nav-link" href="#work">Work</a></li>
+          <li><a class="nav-link" href="#case-study">Case Study</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-ghost" href="https://github.com/muradbishr" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="btn btn-primary" href="assets/Murad_Bishr_CV.pdf" target="_blank" rel="noreferrer">Download CV</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">
+          <span class="theme-icon" aria-hidden="true">◐</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">UI/UX-first • Computer Science</p>
+          <h1 class="hero-title">
+            Design taste <span class="muted">+</span> engineering execution.
+          </h1>
+          <p class="hero-subtitle">
+            I’m <strong>Murad Abdullah Bishr</strong>, a CS student in <strong>Sana’a University, Yemen</strong>.
+            My strongest skill is <strong>UI/UX</strong>—and I build real systems with <strong>Django</strong>,
+            <strong>Flutter</strong>, and <strong>Python</strong>.
+          </p>
+
+          <div class="pill-row" role="list" aria-label="Key skills">
+            <span class="pill" role="listitem">UI/UX</span>
+            <span class="pill" role="listitem">Django</span>
+            <span class="pill" role="listitem">Flutter</span>
+            <span class="pill" role="listitem">Python</span>
+            <span class="pill" role="listitem">Data Science</span>
+          </div>
+
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#case-study">View MediTrack Case Study</a>
+            <a class="btn btn-secondary" href="#work">See Projects</a>
+          </div>
+
+          <div class="meta-row">
+            <div class="meta">
+              <span class="meta-label">Expected graduation</span>
+              <span class="meta-value">March 2026</span>
+            </div>
+            <div class="meta">
+              <span class="meta-label">Email</span>
+              <a class="meta-value link" href="mailto:murad.bishr7@gmail.com">murad.bishr7@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Highlights">
+          <div class="card card-glass">
+            <div class="card-top">
+              <h2 class="card-title">What I bring</h2>
+              <p class="card-subtitle">A clean UI eye + practical building.</p>
+            </div>
+            <ul class="checklist">
+              <li>Clear layouts, hierarchy, spacing, and components</li>
+              <li>Real projects: systems, data work, and coursework</li>
+              <li>Security-aware thinking (roles, permissions, privacy)</li>
+              <li>Fast learner & strong problem-solving</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn btn-ghost" href="#about">About me</a>
+              <a class="btn btn-ghost" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED WORK -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-head">
+          <h2>Selected work</h2>
+          <p class="muted">A few projects that best represent my skills. More below.</p>
+        </div>
+
+        <div class="grid featured-grid" id="featuredGrid" aria-live="polite"></div>
+
+        <div class="section-head split-head">
+          <h3>All projects</h3>
+          <div class="filters" role="group" aria-label="Project filters">
+            <button class="chip is-active" data-filter="all" type="button">All</button>
+            <button class="chip" data-filter="uiux" type="button">UI/UX</button>
+            <button class="chip" data-filter="web" type="button">Web</button>
+            <button class="chip" data-filter="data" type="button">Data</button>
+            <button class="chip" data-filter="systems" type="button">Systems</button>
+          </div>
+        </div>
+
+        <div class="grid projects-grid" id="projectsGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- CASE STUDY -->
+    <section class="section" id="case-study">
+      <div class="container">
+        <div class="section-head">
+          <h2>MediTrack case study</h2>
+          <p class="muted">
+            A digital Personal Medical Record system: patient-managed data, document upload, and secure access.
+          </p>
+        </div>
+
+        <div class="case-card">
+          <div class="case-left">
+            <h3 class="case-title">MediTrack — Personal Health Record</h3>
+            <p class="case-role">Role: UI/UX + Full-stack web development</p>
+
+            <div class="case-block">
+              <h4>Problem</h4>
+              <p>
+                Many healthcare settings still rely on paper records, leading to lost information, slow access,
+                weak sharing, and higher risk of errors.
+              </p>
+            </div>
+
+            <div class="case-block">
+              <h4>Solution</h4>
+              <p>
+                A secure digital record system where patients manage their history, medications, and test results,
+                upload documents, and share access with providers when authorized.
+              </p>
+            </div>
+
+            <div class="case-block">
+              <h4>Tech</h4>
+              <div class="pill-row">
+                <span class="pill">Django</span>
+                <span class="pill">HTML/CSS/JS</span>
+                <span class="pill">SQLite</span>
+              </div>
+            </div>
+
+            <div class="case-actions">
+              <button class="btn btn-primary" id="openMediTrack" type="button">Open full case view</button>
+              <a class="btn btn-secondary" href="https://github.com/muradbishr/MediTrack---Personal_Health_Record---Django" target="_blank" rel="noreferrer">View repo</a>
+            </div>
+          </div>
+
+          <div class="case-right" aria-label="Case study visuals">
+            <div class="mock">
+  <div class="mock-top">
+    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+  </div>
+
+  <div class="mock-body">
+    <img class="mock-img"
+         src="assets/meditrack-welcome.jpeg"
+         alt="MediTrack UI screenshot"
+         loading="lazy" />
+  </div>
+</div>
+
+          </div>
+        </div>
+
+        <div class="process-strip" aria-label="Process">
+          <div class="process-step"><span class="num">01</span>Understand</div>
+          <div class="process-step"><span class="num">02</span>Wireframe</div>
+          <div class="process-step"><span class="num">03</span>Prototype</div>
+          <div class="process-step"><span class="num">04</span>Build</div>
+          <div class="process-step"><span class="num">05</span>Iterate</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2>About</h2>
+          <p class="muted">A quick snapshot—clear, honest, and recruiter-friendly.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="card">
+            <h3>Who I am</h3>
+            <p>
+              I’m a Computer Science student with a strong interest in building real systems.
+              My best skill is UI/UX, so I care about clarity, hierarchy, and usability—not just code.
+              I’m comfortable working across web and data projects, and I learn quickly.
+            </p>
+
+            <div class="strengths">
+              <span class="pill">Critical thinking</span>
+              <span class="pill">Fast learning</span>
+              <span class="pill">Problem-solving</span>
+              <span class="pill">Adaptability</span>
+              <span class="pill">Initiative</span>
+              <span class="pill">Communication</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Skills</h3>
+            <div class="skills">
+              <div class="skill-col">
+                <h4>Design</h4>
+                <ul>
+                  <li>UI/UX (strongest)</li>
+                  <li>Figma / Adobe XD</li>
+                  <li>Logos & visual polish</li>
+                </ul>
+              </div>
+              <div class="skill-col">
+                <h4>Web & Mobile</h4>
+                <ul>
+                  <li>Django</li>
+                  <li>HTML / CSS / JavaScript</li>
+                  <li>Flutter</li>
+                  <li>APIs</li>
+                </ul>
+              </div>
+              <div class="skill-col">
+                <h4>Data & Systems</h4>
+                <ul>
+                  <li>Python</li>
+                  <li>Jupyter, Data Science</li>
+                  <li>ML/DL basics</li>
+                  <li>C++ / C# / PHP</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="muted">Want to talk? Send a message and I’ll reply.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="card">
+            <h3>Reach me</h3>
+            <p class="muted">Email is best. Phone is optional (you can hide it).</p>
+
+            <div class="contact-lines">
+              <div class="contact-line">
+                <span class="label">Email</span>
+                <a class="link" href="mailto:murad.bishr7@gmail.com">murad.bishr7@gmail.com</a>
+                <button class="btn btn-ghost btn-sm" id="copyEmail" type="button">Copy</button>
+              </div>
+
+              <div class="contact-line" id="phoneRow">
+                <span class="label">Phone</span>
+                <span class="muted" id="phoneText">+967 736596136</span>
+              </div>
+
+              <div class="contact-line">
+                <span class="label">GitHub</span>
+                <a class="link" href="https://github.com/muradbishr" target="_blank" rel="noreferrer">github.com/muradbishr</a>
+              </div>
+            </div>
+
+            <label class="toggle">
+              <input type="checkbox" id="showPhone" checked />
+              <span>Show phone number</span>
+            </label>
+          </div>
+
+          <form class="card form" id="contactForm">
+            <h3>Send a message</h3>
+
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" autocomplete="name" placeholder="Your name" required />
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" placeholder="Tell me what role or project you're hiring for..." required></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Open Email</button>
+              <button class="btn btn-secondary" type="reset">Clear</button>
+            </div>
+
+            
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="muted">© <span id="year"></span> Murad Abdullah Bishr • Sana’a, Yemen</p>
+        <a class="link" href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+  </main>
+
+  <!-- MODAL -->
+  <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-panel" role="document">
+      <button class="modal-close" id="modalClose" type="button" aria-label="Close">✕</button>
+
+      <div class="modal-header">
+        <h3 id="modalTitle"></h3>
+        <p class="muted" id="modalSubtitle"></p>
+      </div>
+
+      <div class="modal-meta" id="modalTags"></div>
+
+      <div class="modal-body">
+        <div class="modal-section">
+          <h4>Summary</h4>
+          <p id="modalSummary"></p>
+        </div>
+
+        <div class="modal-section">
+          <h4>Highlights</h4>
+          <ul id="modalHighlights" class="bullets"></ul>
+        </div>
+
+        <div class="modal-section" id="modalImagesSection">
+          <h4>UI Preview</h4>
+          <div class="image-grid" id="modalImages"></div>
+        </div>
+      </div>
+
+      <div class="modal-actions">
+        <a class="btn btn-primary" id="modalRepo" target="_blank" rel="noreferrer">Open GitHub Repo</a>
+        <a class="btn btn-secondary" id="modalProto" target="_blank" rel="noreferrer">Open Figma Prototype</a>
+
+        <button class="btn btn-secondary" id="modalClose2" type="button">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
