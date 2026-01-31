@@ -175,7 +175,7 @@ const PROJECTS = [
     subtitle: "C# programming project.",
     summary:
       "A C# project for practicing structured logic, input handling, and core programming foundations.",
-    highlights: ["Core C practice", "Input/output handling", "Program structure"],
+    highlights: ["Core C# practice", "Input/output handling", "Program structure"],
     images: []
   }
 ];
