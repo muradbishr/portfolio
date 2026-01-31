@@ -172,9 +172,9 @@ const PROJECTS = [
     category: ["systems"],
     tags: ["C#", "Logic"],
     featured: false,
-    subtitle: "C programming project.",
+    subtitle: "C# programming project.",
     summary:
-      "A C project for practicing structured logic, input handling, and core programming foundations.",
+      "A C# project for practicing structured logic, input handling, and core programming foundations.",
     highlights: ["Core C practice", "Input/output handling", "Program structure"],
     images: []
   }
