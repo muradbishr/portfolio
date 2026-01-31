@@ -167,10 +167,10 @@ const PROJECTS = [
   },
   {
     id: "car-rental",
-    title: "Car Rental Project (C)",
-    repo: "https://github.com/muradbishr/Car_Rental_project---C-",
+    title: "Car Rental Project (C#)",
+    repo: "https://github.com/muradbishr/Car_Rental_project---CS",
     category: ["systems"],
-    tags: ["C", "Logic"],
+    tags: ["C#", "Logic"],
     featured: false,
     subtitle: "C programming project.",
     summary:
