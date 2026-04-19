@@ -87,19 +87,7 @@ const PROJECTS = [
     highlights: ["CRUD operations", "Structured database usage", "Practical web app structure"],
     images: []
   },
-  {
-    id: "pygame",
-    title: "Simple Game (Pygame)",
-    repo: "https://github.com/muradbishr/simple-game---pygame",
-    category: ["systems"],
-    tags: ["Python", "Pygame"],
-    featured: false,
-    subtitle: "Small game project.",
-    summary:
-      "A small game built to practice Python logic, game loop structure, and basic UI feedback.",
-    highlights: ["Game loop practice", "Input handling", "Simple feedback/UX"],
-    images: []
-  },
+  
   {
     id: "os-sim",
     title: "OS Simulation Project (C++)",
@@ -166,6 +154,19 @@ const PROJECTS = [
     images: []
   },
   {
+    id: "pygame",
+    title: "Simple Game (Pygame)",
+    repo: "https://github.com/muradbishr/simple-game---pygame",
+    category: ["systems"],
+    tags: ["Python", "Pygame"],
+    featured: false,
+    subtitle: "Small game project.",
+    summary:
+      "A small game built to practice Python logic, game loop structure, and basic UI feedback.",
+    highlights: ["Game loop practice", "Input handling", "Simple feedback/UX"],
+    images: []
+  },
+  {
     id: "car-rental",
     title: "Car Rental Project (C#)",
     repo: "https://github.com/muradbishr/Car_Rental_project---CS",
@@ -177,7 +178,30 @@ const PROJECTS = [
       "A C# project for practicing structured logic, input handling, and core programming foundations.",
     highlights: ["Core C# practice", "Input/output handling", "Program structure"],
     images: []
-  }
+  },
+
+  {
+  id: "billie-eilish",
+  title: "Billie Eilish Album Showcase Website",
+  repo: "https://github.com/muradbishr/Billie-Eilish-Album-Showcase-Website--HTML",
+  category: ["web", "uiux"],
+  tags: ["HTML", "CSS", "UI/UX", "Frontend"],
+  featured: false,
+
+  subtitle: "Interactive music-themed UI showcasing albums and visual design.",
+
+  summary:
+    "A frontend web project designed to showcase Billie Eilish albums through a visually engaging and user-friendly interface. Focused on layout design, visual hierarchy, and smooth user experience using pure HTML and CSS.",
+
+  highlights: [
+    "Clean and modern UI design focused on visual hierarchy",
+    "Responsive layout using HTML and CSS",
+    "Music-themed interface with strong aesthetic direction",
+    "Focus on user experience and visual presentation"
+  ],
+
+  images: []
+ }
 ];
 
 /* ===========================
@@ -409,9 +433,6 @@ $("#copyEmail").addEventListener("click", async () => {
   }
 });
 
-$("#showPhone").addEventListener("change", (e) => {
-  $("#phoneRow").style.display = e.target.checked ? "" : "none";
-});
 
 const revealEls = document.querySelectorAll(".section, .project-card, .case-card, .about-grid, .contact-grid");
 revealEls.forEach(el => el.classList.add("reveal"));
