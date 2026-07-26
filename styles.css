@@ -296,6 +296,19 @@ code{
   }
 
 }
+.mobile-only {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .header-actions .btn {
+        display: none;
+    }
+
+    .mobile-only {
+        display: block;
+    }
+}
 
 /* ===========================
    Buttons / Pills
